@@ -50,6 +50,7 @@
         </nav>
         <a class="btn" href="#contact">Запазете час</a>
         <button
+          type="button"
           class="menu"
           id="menu"
           aria-expanded="false"
@@ -234,8 +235,14 @@
               <a class="btn" href="tel:+359888000000">Обадете се</a>
             </div>
           </div>
-          <div class="ph map" role="img" aria-label="Място за карта">
-            <span>Карта (Google Maps)</span>
+          <div class="ph map" aria-label="Карта до козметичен салон Орхидея в Пловдив">
+            <iframe
+              src="https://www.google.com/maps?q=Plovdiv%20Bulgaria&z=13&output=embed"
+              title="Карта до козметичен салон Орхидея в Пловдив"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </section>
@@ -246,9 +253,10 @@
         <span
           >© <span id="year">2026</span> Козметичен салон Орхидея, Пловдив</span
         >
-        <a href="#top">Нагоре</a>
       </div>
     </footer>
+
+    <a class="back-to-top" href="#top" aria-label="Към началото" title="Към началото">↑</a>
 
     <script src="script.js" defer></script>
   </body>
